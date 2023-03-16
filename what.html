@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>???????????</title>
+    <title>Hidden Disc Zone</title>
     <meta name="description" content="Hidden Page of BLACKDISC.">
     <meta name="keywords" content="BLACKDISC, BLACKDISCDX, Homepage, Easter Egg, Music, DJ, Artist, HTML, Geocities, HTML, personal website">
     <link
@@ -25,7 +25,7 @@
 
       <div class="container">
         <h1>
-          <span>???????????????????????????????????????????</span>
+          <span>Hidden Disc Zone</span>
         </h1>
         <div>
           <h2>
@@ -42,19 +42,122 @@
 
     <main>
       <div class="container">
-        <p class="middle">You made it to the Test Room!</p>
+        <p class="middle">You made it to the Hidden Disc Zone!</p>
+        <p class="middle">Stay and enjoy some music! :)</p>
         <p class="middle">
           (Coding is not my thing by any means but I've been having fun with the
           process of learning how to make this site)
         </p>
-        <audio class="middle" id="musicvol" controls loop autoplay>
-          <source src="/audio/sunny.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-        <script>
-          var audio = document.getElementById("musicvol");
-          audio.volume = 0.5;
-        </script>
+      </div>
+      <div>
+        <!--Winamp-->
+        <div id="app" style="position:absolute; top: 592px; left: 598px;">
+          <script src="https://unpkg.com/webamp"></script>
+          <script>new Webamp({
+              initialTracks: [
+              {
+              metaData: {
+                      artist: "Takahiro Unisuga",
+                      title: "Looking Up At The Sky",
+                  },
+                
+                  url: "audio/lookingupatthesky.mp3",
+              },
+              {
+              metaData: {
+                      artist: "Sonic Mega Collection",
+                      title: "History",
+                  },
+                
+                  url: "audio/history.mp3",
+              },  
+              {
+              metaData: {
+                      artist: "Fumie Kumatani",
+                      title: "World With Me",
+                  },
+                
+                  url: "audio/worldwithme.mp3",
+              },
+              {
+              metaData: {
+                      artist: "Park Hye Jin",
+                      title: "Like This",
+                  },
+                
+                  url: "audio/likethis.mp3",
+              },
+              {
+              metaData: {
+                      artist: "Tsukihime",
+                      title: "Sunny",
+                  },
+                
+                  url: "audio/sunny.mp3",
+              },
+              {
+                  metaData: {
+                      artist: "ESTi",
+                      title: "isthis2step",
+                  },
+                
+                  url: "audio/isthis2step.mp3",
+              },
+              { 
+                  metaData: {
+                      artist: "Maki Kimura",
+                      title: "To That Day",
+                  },
+                
+                  url: "audio/tothatday.mp3",
+              },
+              {
+                  metaData: {
+                      artist: "Maki Kimura",
+                      title: "Your Rainbow",
+                  },
+                
+                  url: "audio/yourrainbow.mp3",
+              },
+              {
+                  metaData: {
+                      artist: "Kyuuketsu Kitan Moonties",
+                      title: "Family",
+                  },
+                
+                  url: "audio/family.mp3",
+              },
+              {
+                  metaData: {
+                      artist: "Shinkichi Mitsumune",
+                      title: "Jab Up Beauty",
+                  },
+                
+                  url: "audio/jabupbeauty.mp3",
+              },
+              {
+                  metaData: {
+                      artist: "Meitei",
+                      title: "Oiran II",
+                  },
+                
+                  url: "audio/oiranii.mp3",
+              },
+              {
+                  metaData: {
+                      artist: "DEKU",
+                      title: "Remember Me",
+                  },
+                
+                  url: "audio/rememberme.mp3",
+              },
+            ],
+              initialSkin: {
+                  url: 
+              "images/Dolphin-Wave-Amp.wsz"
+              },}).renderWhenReady(app);</script>
+              </div>
+              <!--End Winamp-->
       </div>
       <div>
         <img id="shadowless" src="/images/kurt.gif" alt="Kurt Nardin" />
