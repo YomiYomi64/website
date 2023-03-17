@@ -1,213 +1,216 @@
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <title>BLACKDISC.ONLINE</title>
-      <meta name="description" content="Home - BLACKDISC.">
-      <meta name="keywords" content="BLACKDISC, BLACKDISCDX, Homepage, Music, DJ, Artist, HTML, Geocities, HTML, personal website">
-      <meta name="author" content="BLACKDISC">
-      <meta property="og:title" content="BLACKDISC.ONLINE">
-    <meta property="og:description" content="Welcome to the Wired 💿">
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://blackdisc.online/">
-    <meta property="og:image" content="https://raw.githubusercontent.com/blackdiscdx/website/main/images/meta/home.png">
-    <meta property="og:image:type" content="image/png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@blackdiscdx">
-    <meta property="twitter:title" content="BLACKDISC.ONLINE">
-    <meta property="twitter:description" content="Welcome to the Wired 💿">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/blackdiscdx/website/main/images/meta/home.png">
-    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/blackdiscdx/website/main/images/meta/(FILENAME).png">
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Noto+Sans"
-      />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BLACKDISC.ONLINE</title>
+    <meta name="description" content="Home - BLACKDISC.">
+    <meta name="keywords" content="BLACKDISC, BLACKDISCDX, Homepage, Music, DJ, Artist, HTML, Geocities, HTML, personal website">
+    <meta name="author" content="BLACKDISC">
+    <meta property="og:title" content="BLACKDISC.ONLINE">
+  <meta property="og:description" content="Welcome to the Wired 💿">
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://blackdisc.online/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/blackdiscdx/website/main/images/meta/home.png">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@blackdiscdx">
+  <meta property="twitter:title" content="BLACKDISC.ONLINE">
+  <meta property="twitter:description" content="Welcome to the Wired 💿">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/blackdiscdx/website/main/images/meta/home.png">
+  <meta name="twitter:image:src" content="https://raw.githubusercontent.com/blackdiscdx/website/main/images/meta/(FILENAME).png">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+    />
 
-      <link rel="stylesheet" href="normalize.css" />
-      <link rel="stylesheet" href="/yorha.css" />
-      <link rel="shortcut icon" href="/images/favicon.ico?" />
-    </head>
-    <body>
-      <!-- partial:index.partial.html -->
-      <header>
-        <div class="pattern">
-          <div class="container">
-            <div class="pattern-inner"></div>
-          </div>
-        </div>
-      </header>
-
-      <main>
-        <center><img id="shadowless" style="width: 70rem;" src="./images/bdonline.webp" alt="blackdisc logo"></center>
-        <!--Winamp-->
-        <div id="app" style="position:absolute; top: 530px; left: 98px;">
-          <script src="https://unpkg.com/webamp"></script>
-          <script>new Webamp({
-              initialTracks: [
-              {
-              metaData: {
-                      artist: "Takahiro Unisuga",
-                      title: "Looking Up At The Sky",
-                  },
-                
-                  url: "audio/lookingupatthesky.mp3",
-              },
-              {
-              metaData: {
-                      artist: "Sonic Mega Collection",
-                      title: "History",
-                  },
-                
-                  url: "audio/history.mp3",
-              },  
-              {
-              metaData: {
-                      artist: "Fumie Kumatani",
-                      title: "World With Me",
-                  },
-                
-                  url: "audio/worldwithme.mp3",
-              },
-              {
-              metaData: {
-                      artist: "Park Hye Jin",
-                      title: "Like This",
-                  },
-                
-                  url: "audio/likethis.mp3",
-              },
-              {
-              metaData: {
-                      artist: "Tsukihime",
-                      title: "Sunny",
-                  },
-                
-                  url: "audio/sunny.mp3",
-              },
-              {
-                  metaData: {
-                      artist: "ESTi",
-                      title: "isthis2step",
-                  },
-                
-                  url: "audio/isthis2step.mp3",
-              },
-              { 
-                  metaData: {
-                      artist: "Maki Kimura",
-                      title: "To That Day",
-                  },
-                
-                  url: "audio/tothatday.mp3",
-              },
-              {
-                  metaData: {
-                      artist: "Maki Kimura",
-                      title: "Your Rainbow",
-                  },
-                
-                  url: "audio/yourrainbow.mp3",
-              },
-              {
-                  metaData: {
-                      artist: "Kyuuketsu Kitan Moonties",
-                      title: "Family",
-                  },
-                
-                  url: "audio/family.mp3",
-              },
-              {
-                  metaData: {
-                      artist: "Shinkichi Mitsumune",
-                      title: "Jab Up Beauty",
-                  },
-                
-                  url: "audio/jabupbeauty.mp3",
-              },
-              {
-                  metaData: {
-                      artist: "Meitei",
-                      title: "Oiran II",
-                  },
-                
-                  url: "audio/oiranii.mp3",
-              },
-              {
-                  metaData: {
-                      artist: "DEKU",
-                      title: "Remember Me",
-                  },
-                
-                  url: "audio/rememberme.mp3",
-              },
-            ],
-              initialSkin: {
-                  url: 
-              "images/Dolphin-Wave-Amp.wsz"
-              },}).renderWhenReady(app);</script>
-              </div>
-              <!--End Winamp-->
-        <div class="content">
-          <div class="container">
-            <figure>
-              <figcaption class="projects">Socials</figcaption>
-              <div
-                class="container"
-                style="margin-left: auto; margin-right: auto; text-align: center"
-              >
-                <a
-                  href="https://www.youtube.com/@BLACKDISC/featured"
-                  target="_blank"
-                  ><button type="button">YouTube</button></a
-                >
-                <a href="https://www.instagram.com/blackdiscdx/" target="_blank"
-                  ><button type="button">Instagram</button></a
-                >
-                <a href="https://soundcloud.com/blackdiscdx" target="_blank"
-                  ><button type="button">SoundCloud</button></a
-                >
-                <a href="https://twitter.com/BLACKDISCDX" target="_blank"
-                  ><button type="button">Twitter</button></a
-                >
-                <a
-                  href="https://www.twitch.tv/blackdiscdx"
-                  target="_blankhttps://www.twitch.tv/blackdiscdx"
-                  ><button type="button">Twitch</button></a
-                >
-                <a href="http://blackdisc.medium.com/" target="_blank"
-                  ><button type="button">Writing</button></a
-                >
-                <a href="https://blackdisc.bandcamp.com/" target="_blank"
-                  ><button type="button">Bandcamp</button></a
-                >
-              </div>
-            </figure>
-          </div>
-        </div>
-        <div class="container2">
-          <div>
-            <a  href="./projects.html"><button class="button2">ENTER</button></a>
-          </div>
-          <br />
-          <div>
-            <a href="https://soundcloud.com/blackdiscdx" target="_blank"><button class="button2">MUSIC</button>
-            </div></a>
-          <br />
-          <div><a href="https://www.youtube.com/@BLACKDISC/featured" target="_blank"><button class="button2">VIDEO</button></div></a>
-          <br />
-          <div><a href="./events.html"><button class="button2">EVENTS</button></div></a>
-          
-        </div>
-        <div>
-          <img id="shadowless" style="position: absolute; top: 6.85rem; right: 5rem;" src="/images/kohakudance.gif" alt="Kohaku dancing"></div>
-            </div>
-      </main>
-
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="/yorha.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico?" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <header>
       <div class="pattern">
         <div class="container">
           <div class="pattern-inner"></div>
         </div>
       </div>
-      <!-- partial -->
-    </body>
-  </html>
+    </header>
+
+    <main>
+      <center><img id="shadowless" style="width: 70rem;" src="./images/bdonline.webp" alt="blackdisc logo"></center>
+      <!--Winamp-->
+      <div id="app" style="position:absolute; top: 530px; left: 98px;">
+        <script src="https://unpkg.com/webamp"></script>
+        <script>new Webamp({
+            initialTracks: [
+            {
+            metaData: {
+                    artist: "Takahiro Unisuga",
+                    title: "Looking Up At The Sky",
+                },
+              
+                url: "audio/lookingupatthesky.mp3",
+            },
+            {
+            metaData: {
+                    artist: "Sonic Mega Collection",
+                    title: "History",
+                },
+              
+                url: "audio/history.mp3",
+            },  
+            {
+            metaData: {
+                    artist: "Fumie Kumatani",
+                    title: "World With Me",
+                },
+              
+                url: "audio/worldwithme.mp3",
+            },
+            {
+            metaData: {
+                    artist: "Park Hye Jin",
+                    title: "Like This",
+                },
+              
+                url: "audio/likethis.mp3",
+            },
+            {
+            metaData: {
+                    artist: "Tsukihime",
+                    title: "Sunny",
+                },
+              
+                url: "audio/sunny.mp3",
+            },
+            {
+                metaData: {
+                    artist: "ESTi",
+                    title: "isthis2step",
+                },
+              
+                url: "audio/isthis2step.mp3",
+            },
+            { 
+                metaData: {
+                    artist: "Maki Kimura",
+                    title: "To That Day",
+                },
+              
+                url: "audio/tothatday.mp3",
+            },
+            {
+                metaData: {
+                    artist: "Maki Kimura",
+                    title: "Your Rainbow",
+                },
+              
+                url: "audio/yourrainbow.mp3",
+            },
+            {
+                metaData: {
+                    artist: "Kyuuketsu Kitan Moonties",
+                    title: "Family",
+                },
+              
+                url: "audio/family.mp3",
+            },
+            {
+                metaData: {
+                    artist: "Shinkichi Mitsumune",
+                    title: "Jab Up Beauty",
+                },
+              
+                url: "audio/jabupbeauty.mp3",
+            },
+            {
+                metaData: {
+                    artist: "Meitei",
+                    title: "Oiran II",
+                },
+              
+                url: "audio/oiranii.mp3",
+            },
+            {
+                metaData: {
+                    artist: "DEKU",
+                    title: "Remember Me",
+                },
+              
+                url: "audio/rememberme.mp3",
+            },
+          ],
+            initialSkin: {
+                url: 
+            "images/Dolphin-Wave-Amp.wsz"
+            },}).renderWhenReady(app);</script>
+            </div>
+            <!--End Winamp-->
+      <div class="content">
+        <div class="container">
+          <figure>
+            <figcaption class="projects">Socials</figcaption>
+            <div
+              class="container"
+              style="margin-left: auto; margin-right: auto; text-align: center"
+            >
+              <a
+                href="https://www.youtube.com/@BLACKDISC/featured"
+                target="_blank"
+                ><button type="button">YouTube</button></a
+              >
+              <a href="https://www.instagram.com/blackdiscdx/" target="_blank"
+                ><button type="button">Instagram</button></a
+              >
+              <a href="https://soundcloud.com/blackdiscdx" target="_blank"
+                ><button type="button">SoundCloud</button></a
+              >
+              <a href="https://twitter.com/BLACKDISCDX" target="_blank"
+                ><button type="button">Twitter</button></a
+              >
+              <a
+                href="https://www.twitch.tv/blackdiscdx"
+                target="_blankhttps://www.twitch.tv/blackdiscdx"
+                ><button type="button">Twitch</button></a
+              >
+              <a href="http://blackdisc.medium.com/" target="_blank"
+                ><button type="button">Writing</button></a
+              >
+              <a href="https://blackdisc.bandcamp.com/" target="_blank"
+                ><button type="button">Bandcamp</button></a
+              >
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="container2">
+        <div>
+          <a  href="./projects.html"><button class="button2">ENTER</button></a>
+        </div>
+        <br />
+        <div>
+          <a href="https://soundcloud.com/blackdiscdx" target="_blank"><button class="button2">MUSIC</button>
+          </div></a>
+        <br />
+        <div><a href="https://www.youtube.com/@BLACKDISC/featured" target="_blank"><button class="button2">VIDEO</button></div></a>
+        <br />
+        <div><a href="./events.html"><button class="button2">EVENTS</button></div></a>
+        
+      </div>
+      <center>
+        <div><i>(This website is designed for desktop viewing).</i></div>
+      </center>
+      <div>
+        <img id="shadowless" style="position: absolute; top: 6.85rem; right: 5rem;" src="/images/kohakudance.gif" alt="Kohaku dancing"></div>
+          </div>
+    </main>
+
+    <div class="pattern">
+      <div class="container">
+        <div class="pattern-inner"></div>
+      </div>
+    </div>
+    <!-- partial -->
+  </body>
+</html>
