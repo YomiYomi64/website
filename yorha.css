@@ -379,7 +379,6 @@ main {
 img {
   box-shadow: 3px 3px 0 rgba(77, 73, 62, 0.6);
   object-fit: fill;
-
 }
 
 .container {
@@ -588,9 +587,11 @@ header {
 #musicvol {
 }
 
-.articleimg{
+.articleimg {
   width: 450px;
   height: 450px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
-object-position: top left;
+  object-position: top left;
 }
