@@ -9,58 +9,58 @@
 
 <url>
   <loc>https://blackdisc.online/</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://blackdisc.online/projects.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blackdisc.online/events.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
+  <loc>https://blackdisc.online/about.html</loc>
+  <lastmod>2023-08-07T16:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackdisc.online/index.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blackdisc.online/projects.html</loc>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blackdisc.online/bloghub.html</loc>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blackdisc.online/events.html</loc>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackdisc.online/downloads.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blackdisc.online/articlehub.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blackdisc.online/contact.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
+  <loc>https://blackdisc.online/what.html</loc>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blackdisc.online/idioteque.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://blackdisc.online/djthoughts.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blackdisc.online/favalbums.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blackdisc.online/what.html</loc>
-  <lastmod>2023-03-24T07:17:25+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://blackdisc.online/djthoughts.html</loc>
+  <lastmod>2023-08-07T16:11:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
