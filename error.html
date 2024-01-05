@@ -9,6 +9,7 @@
       content="BLACKDISC, BLACKDISCDX, Homepage, Music, DJ, Artist, HTML, Geocities, HTML, personal website"
     />
     <meta name="author" content="BLACKDISC" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <link
       rel="stylesheet"
@@ -21,17 +22,15 @@
   </head>
   <body>
     <!-- partial:index.partial.html -->
-    <header>
-      <div class="pattern">
-        <div class="container">
-          <div class="pattern-inner"></div>
-        </div>
-      </div>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
 
-      <div class="container">
-        <h1>ERROR</h1>
-      </div>
-    </header>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("header.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
 
     <main>
       <div class="container">

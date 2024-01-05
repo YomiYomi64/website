@@ -16,32 +16,20 @@
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="/yorha.css" />
     <link rel="shortcut icon" href="/images/favicon.ico?" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
   </head>
   <body>
     <!-- partial:index.partial.html -->
-    <header>
-      <div class="pattern">
-        <div class="container">
-          <div class="pattern-inner"></div>
-        </div>
-      </div>
+ <!--Navigation bar-->
+ <div id="nav-placeholder"></div>
 
-      <div class="container">
-        <h1>
-          <span>Hidden Disc Zone</span>
-        </h1>
-        <div>
-          <h2>
-            <a href="/index.html"><span>Home</span></a>
-            <a href="/projects.html"><span>Projects</span></a>
-            <a href="/events.html"><span>Events</span></a>
-            <a href="/bloghub.html"><span>Blog</span></a>
-            <a href="/downloads.html"><span>Downloads</span></a>
-            <a href="/about.html"><span>About</span></a>
-          </h2>
-        </div>
-      </div>
-    </header>
+ <script>
+   $(function () {
+     $("#nav-placeholder").load("header.html");
+   });
+ </script>
+ <!--end of Navigation bar-->
 
     <main>
       <div class="container"><figure>
@@ -84,6 +72,9 @@
         </p>
         <div>
           <h1>Changelog:</h1>
+          <p>
+            V 1.3.1 (January 4th, 2024): -Replaced Events tab with Radio station! Finally figured out how to update navbar sitewide (thank god)
+          </p>
           <p>
             V 1.3 (August 7, 2023): -Updated header + navigation of site to look more presentable. Added footers. Added Kohaku to every page <3
           </p>

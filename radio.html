@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BLACKDISC RADIO</title>
+    <meta name="description" content="BLACKDISC RADIO." />
+    <meta
+      name="keywords"
+      content="BLACKDISC, BLACKDISCDX, Homepage, Music, DJ, Artist, HTML, Geocities, HTML, personal website"
+    />
+    <meta name="author" content="BLACKDISC" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.1" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+    />
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="/yorha.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico?" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("header.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+    <main>
+      <div class="container" style="display: flex">
+        <div id="stream" style="padding: 10px">
+          <iframe
+            src="https://player.twitch.tv/?channel=blackdiscdx&parent=blackdisc.online"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            scrolling="no"
+            height="756"
+            width="1240"
+          ></iframe>
+        </div>
+        <div id="chat" style="align-items: stretch">
+          <iframe
+            id="chat_embed"
+            src="https://www.twitch.tv/embed/blackdiscdx/chat?parent=blackdisc.online"
+            height="auto"
+            width="350"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <!--Winamp-->
+          <div id="app" style="position: absolute; top: 165px; left: 4000px">
+            <script src="https://unpkg.com/webamp"></script>
+            <script>
+              new Webamp({
+                initialTracks: [
+                  {
+                    metaData: {
+                      artist: "Takahiro Unisuga",
+                      title: "Looking Up At The Sky",
+                    },
+
+                    url: "audio/lookingupatthesky.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Sonic Mega Collection",
+                      title: "History",
+                    },
+
+                    url: "audio/history.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Fumie Kumatani",
+                      title: "World With Me",
+                    },
+
+                    url: "audio/worldwithme.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Park Hye Jin",
+                      title: "Like This",
+                    },
+
+                    url: "audio/likethis.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Tsukihime",
+                      title: "Sunny",
+                    },
+
+                    url: "audio/sunny.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "ESTi",
+                      title: "isthis2step",
+                    },
+
+                    url: "audio/isthis2step.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Maki Kimura",
+                      title: "To That Day",
+                    },
+
+                    url: "audio/tothatday.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Maki Kimura",
+                      title: "Your Rainbow",
+                    },
+
+                    url: "audio/yourrainbow.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Kyuuketsu Kitan Moonties",
+                      title: "Family",
+                    },
+
+                    url: "audio/family.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Shinkichi Mitsumune",
+                      title: "Jab Up Beauty",
+                    },
+
+                    url: "audio/jabupbeauty.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "Meitei",
+                      title: "Oiran II",
+                    },
+
+                    url: "audio/oiranii.mp3",
+                  },
+                  {
+                    metaData: {
+                      artist: "DEKU",
+                      title: "Remember Me",
+                    },
+
+                    url: "audio/rememberme.mp3",
+                  },
+                ],
+                initialSkin: {
+                  url: "images/Dolphin-Wave-Amp.wsz",
+                },
+              }).renderWhenReady(app);
+            </script>
+          </div>
+          <!--End Winamp-->
+        </div>
+      </div>
+    </main>
+    <style>
+      #stream {
+        display: flex;
+      }
+      #chat {
+        display: flex;
+        width: 30%;
+      }
+    </style>
+    <div class="pattern">
+      <div class="container">
+        <div class="pattern-inner"></div>
+      </div>
+    </div>
+    <!-- partial -->
+  </body>
+</html>

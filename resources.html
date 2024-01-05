@@ -13,34 +13,20 @@
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="/yorha.css" />
     <link rel="shortcut icon" href="/images/favicon.ico?" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
   </head>
 <body>
 <!-- partial:index.partial.html -->
-<header>
-  <div class="pattern">
-    <div class="container">
-      <div class="pattern-inner"></div>
-    </div>
-  </div>
-  
-  <div class="container">
-    <h1>
-      <span>RESOURCES</span>
-    </h1>
-    <div>
-      <h2>
-        <a href="/index.html"><span>Home</span></a>
-        <a href="/projects.html"><span>Projects</span></a>
-        <a href="/events.html"><span>Events</span></a>
-        <a href="/bloghub.html"><span>Blog</span></a>
-        <a href="/press.html"><span>Press</span></a>
-        <a href="/downloads.html"><span>Downloads</span></a>
-        <a href="/about.html"><span>About</span></a>
-          </h2>
-    </div>
-  </div>
-</header>
+<!--Navigation bar-->
+<div id="nav-placeholder"></div>
 
+<script>
+  $(function () {
+    $("#nav-placeholder").load("header.html");
+  });
+</script>
+<!--end of Navigation bar-->
 <main>
   <div class="container">
     <p>Work in Progress! I plan on adding learning materials and other cool stuff I find to this page.</p>

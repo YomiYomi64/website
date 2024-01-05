@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Noto+Sans"
     />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="/yorha.css" />
@@ -21,30 +22,15 @@
   </head>
   <body>
     <!-- partial:index.partial.html -->
-    <header>
-      <div class="pattern">
-        <div class="container">
-          <div class="pattern-inner"></div>
-        </div>
-      </div>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
 
-      <div class="container">
-        <h1>
-          <span>Press</span>
-        </h1>
-        <div>
-          <h2>
-            <a href="/index.html"><span>Home</span></a>
-            <a href="/projects.html"><span>Projects</span></a>
-            <a href="/events.html"><span>Events</span></a>
-            <a href="/bloghub.html"><span>Blog</span></a>
-            <a href="/press.html"><span>Press</span></a>
-            <a href="/downloads.html"><span>Downloads</span></a>
-            <a href="/about.html"><span>About</span></a>
-          </h2>
-        </div>
-      </div>
-    </header>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("header.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
 
     <main>
       <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly;">
