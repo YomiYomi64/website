@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKDISC</title>
+    <link rel="stylesheet" href="./yorha.css">
+    <style>.full { width: 100% }</style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+<div>
+            <figure>
+            <figcaption> Bassline Brigade vs. Artcade</figcaption>
+    <div class="wrapper iframe">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-P7IOzOJWQ?si=uTEzWo725eIeeLaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+<caption>Promotional trailer for the 2023 Bassline Brigade Artcade show. Directed & Edited by me.</caption>          
+</div>
+    <div><figure>
+        <figcaption>Writing on Letterboxd</figcaption>
+        <div id="letterboxd-embed-wrapper-tc">Loading...</div>
+<script>
+fetch('https://lb-embed-content.bokonon.dev?username=blackdisc')
+.then(response => response.text())
+.then(data => {
+document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
+});
+</script>
+    </figure>
+    </div>
+</body>
+</html>
