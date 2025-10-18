@@ -75,9 +75,9 @@ $(function(){
     </div>
 <br>
       <div>
-        <form method="POST" id="form">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
           <input type="hidden" name="access_key" value="f69d06b6-a626-4772-bd0f-e47016d65ce7">
-    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+    <input type="hidden" name="subject" value="Website Submission">
     <input type="checkbox" name="botcheck" id="" style="display: none;">
           <fieldset>
             <legend>Email</legend>
@@ -97,7 +97,6 @@ $(function(){
         <label for="textarea">Message</label>
     <textarea name="message" class="full" id="textarea" rows="8" placeholder="[Message]" required></textarea>
             </p>
-              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                   <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 <button class="full" type="submit">Submit</button>
                     <div id="result"></div>
