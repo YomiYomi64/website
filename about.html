@@ -23,18 +23,88 @@ $(function(){
 
 </div>
 <div>
-        <figure>
-        <figcaption>About</figcaption>
-     <div class="container">
-        <div><img height="auto;" max-width="100%;" width="50%;" src="./images/BD__ShedEX.webp"></div>
-        <div>
-            <blockquote>
-                I go by the alias BLACKDISC. I'm a Seattle/Dallas based multimedia artist that explores music, film & video games.
-            </blockquote>
-                <hr/>
-        </div>
-     </div>
-        </figure>
+        <fieldset>
+          <legend>About Me</legend>
+          <figure>
+          <figcaption>About</figcaption>
+               <div class="container">
+          <div><img src="./images/BD__ShedEX.webp"></div>
+          <hr>
+          <div>
+              <blockquote>
+                <p>I'm Jay and I go by the alias BLACKDISC. I'm a Seattle/Dallas based multi-media artist that explores music, film & video games.</p><p>Alongside my art, I also do work in film & education.</p>
+              </blockquote>
+          </div>  
+               </div>
+              </fieldset>
+              <br>  
+              <fieldset>
+                <legend>Contact</legend>
+                  <div>
+                  </figure>
+                    <figure>
+                      <figcaption>Socials</figcaption>
+                      <ul>
+                        <a href="https://www.instagram.com/blackdiscdx/" target="_blank">
+                          <li>Instagram</li>
+                        </a>
+                        <a href="https://x.com/BLACKDISCDX" target="_blank">
+                          <li>Twitter</li>
+                        </a>
+                        <a href="https://www.youtube.com/@WAVform" target="_blank">
+                          <li>YouTube</li>
+                        </a>
+                        <a href="https://soundcloud.com/blackdiscdx" target="_blank">
+                          <li>Soundcloud</li>
+                        </a>
+                        <a href="https://blackdisc.bandcamp.com/" target="_blank">
+                          <li>Bandcamp</li>
+                        </a>
+                        <a href="https://www.twitch.tv/blackdiscdx" target="_blank">
+                          <li>Twitch</li>
+                        </a>
+                      </ul>
+                      <div>
+                      </div>
+                    </figure>
+                  </div>
+          </div>
+               </div>
+          </figure>
+        </fieldset>
+    </div>
+<br>
+      <div>
+        <form method="POST" id="form">
+          <input type="hidden" name="access_key" value="f69d06b6-a626-4772-bd0f-e47016d65ce7">
+    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+          <fieldset>
+            <legend>Email</legend>
+            <p>
+        <label for="text">Your Email</label>
+    <input type="email" name="email" class="full" placeholder="Required" required>
+            </p>
+            <p>
+        <label for="text">Name</label>
+    <input type="text" name="name" class="full" placeholder="Who Are You?" required>
+            </p>
+            <p>
+        <label for="text">Phone</label>
+    <input type="text" name="phone" class="full" placeholder="Optional" optional>
+            </p>
+            <p>
+        <label for="textarea">Message</label>
+    <textarea name="message" class="full" id="textarea" rows="8" placeholder="[Message]" required></textarea>
+            </p>
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button class="full" type="submit">Submit</button>
+                    <div id="result"></div>
+          </fieldset>
+        </form>
+      </div>
+      </div>
     </div>
 </body>
 </html>
