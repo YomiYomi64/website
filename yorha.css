@@ -394,3 +394,12 @@ img {
     min-width: 100%;
     min-height: 100%
 }
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  float:left;
+  padding: 0.5em;
+}
