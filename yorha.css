@@ -402,4 +402,6 @@ img {
   flex-direction: row;
   float:left;
   padding: 0.5em;
+  object-fit: cover;
+  flex: 1 1 250px;
 }
