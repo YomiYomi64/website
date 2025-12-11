@@ -24,20 +24,32 @@ $(function(){
 
 </div>
 <div>
-        <fieldset>
-          <legend>About Me</legend>
-          <figure>
-          <figcaption>About</figcaption>
-               <div class="container">
-          <div><img src="./images/BD__ShedEX.webp"></div>
-          <hr>
-          <div>
-              <blockquote>
-                <p>I'm Jay and I go by the alias BLACKDISC. I'm a Seattle/Dallas based multi-media artist that explores music, film & video games.</p><p>Alongside my art, I also do work in film & education.</p> <p>Co-founder of <a href="https://www.instagram.com/basslinebrigade/?" target="_blank">Bassline Brigade</a>: A Dallas-based music collective & DJ Residency</p>
-              </blockquote>
-          </div>  
-               </div>
-              </fieldset>
+    <div>
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+          <input type="hidden" name="access_key" value="f69d06b6-a626-4772-bd0f-e47016d65ce7">
+    <input type="hidden" name="subject" value="Website Submission">
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+          <fieldset>
+            <legend>Contact Me (Email)</legend>
+            <p>
+        <label for="text">Your Email</label>
+    <input type="email" name="email" class="full" placeholder="Required" required>
+            </p>
+            <p>
+        <label for="text">Name</label>
+    <input type="text" name="name" class="full" placeholder="Who Are You?" required>
+            </p>
+            <p>
+        <label for="textarea">Message</label>
+    <textarea name="message" class="full" id="textarea" rows="8" placeholder="[Feel free to reach out to chat, inquire or book for a show]." required></textarea>
+            </p>
+                  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button class="full" type="submit">Submit</button>
+                    <div id="result"></div>
+          </fieldset>
+        </form>
+      </div>
+           </fieldset>
               <br>  
               <fieldset>
                 <legend>Contact</legend>
@@ -72,34 +84,28 @@ $(function(){
           </div>
                </div>
           </figure>
-        </fieldset>
+        </fieldset> 
+</div>
+<br>
+<div>
+        <fieldset>
+          <legend>About Me</legend>
+          
+          <figure>
+          <figcaption>About</figcaption>
+               <div class="container">
+          <div><img src="./images/BD__ShedEX.webp"></div>
+          <hr>
+          <div>
+              <blockquote>
+                <p>I'm Jay and I go by the alias BLACKDISC. I'm a Seattle/Dallas based multi-media artist that explores music, film & video games.</p><p>Alongside my art, I also do work in film & education.</p> <p>Co-founder of <a href="https://www.instagram.com/basslinebrigade/?" target="_blank">Bassline Brigade</a>: A Dallas-based music collective & DJ Residency</p>
+              </blockquote>
+          </div>  
+               </div>
+         
     </div>
 <br>
-      <div>
-        <form action="https://api.web3forms.com/submit" method="POST" id="form">
-          <input type="hidden" name="access_key" value="f69d06b6-a626-4772-bd0f-e47016d65ce7">
-    <input type="hidden" name="subject" value="Website Submission">
-    <input type="checkbox" name="botcheck" id="" style="display: none;">
-          <fieldset>
-            <legend>Email</legend>
-            <p>
-        <label for="text">Your Email</label>
-    <input type="email" name="email" class="full" placeholder="Required" required>
-            </p>
-            <p>
-        <label for="text">Name</label>
-    <input type="text" name="name" class="full" placeholder="Who Are You?" required>
-            </p>
-            <p>
-        <label for="textarea">Message</label>
-    <textarea name="message" class="full" id="textarea" rows="8" placeholder="[Feel free to reach out to chat, inquire or book for a show]." required></textarea>
-            </p>
-                  <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                <button class="full" type="submit">Submit</button>
-                    <div id="result"></div>
-          </fieldset>
-        </form>
-      </div>
+    
       </div>
     </div>
 </body>
