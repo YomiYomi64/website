@@ -404,5 +404,7 @@ img {
   padding: 0.5em;
   object-fit: cover;
 }
-ul{    list-style-type: none;
+
+ul {   
+   list-style-type: none;
 }
