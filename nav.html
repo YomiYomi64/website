@@ -1,31 +1,50 @@
- <a href="./index.html" style="  text-decoration: none;">
+<a href="./index.html" style="  text-decoration: none;">
      <div><h1 style="text-align: center;">BLACKDISC</h1>
  </a>
 </div>
         <div style= class="container">
-        <div>
             <fieldset>
                 <legend style="text-align: center;">Insert Disc</legend>
-                    <a href="./calendar.html">
-                        <div><button class="full" type="submit">Calendar</button></div>
-                    </a>
-                    <br>
-                    <a href="./about.html">
-                        <div><button class="full" type="submit">About & Contact</button></div>
-                    </a>
-                    <br>
-                    <a href="./music.html">
-                        <div><button class="full" type="submit">Music</button></div>
-                    </a>
-                    <br>
-                    <a href="./film.html">
-                        <div><button class="full" type="submit">Video & Film</button></div>
-                    </a>
-                    <br>
-                    <a href="./library.html">
-                        <div><button class="full" type="submit">Library</button></div>
-                    </a>
+                <button class="collapsible" class="full" type="submit">Click to Navigate +</button>
+                        <div class="content">
+                            <hr>
+                            <a href="./calendar.html">
+                                <div><button class="full" type="submit">Calendar</button></div>
+                            </a>
+                            <br>
+                            <a href="./about.html">
+                                <div><button class="full" type="submit">About & Contact</button></div>
+                            </a>
+                            <br>
+                            <a href="./music.html">
+                                <div><button class="full" type="submit">Music</button></div>
+                            </a>
+                            <br>
+                            <a href="./film.html">
+                                <div><button class="full" type="submit">Video & Film</button></div>
+                            </a>
+                            <br>
+                            <a href="./library.html">
+                                <div><button class="full" type="submit">Library</button></div>
+                            </a>
+                        </div>
+                    </button>
             </fieldset>
-        </div>
         <br>
-        </div>
+     <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    
