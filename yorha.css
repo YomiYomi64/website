@@ -425,3 +425,6 @@ ul {
   max-height: 0;
 }
 
+.user-css iframe[allow*=autoplay] {
+    aspect-ratio: 4 / 3;
+}
