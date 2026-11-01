@@ -4,7 +4,32 @@
 
   <url>
        <loc>https://blackdisc.online/</loc>
-       <lastmod>2026-10-31T04:47:45+00:00</lastmod>
+       <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://blackdisc.online/calendar</loc>
+       <lastmod>2026-11-01T23:09:45+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://blackdisc.online/about</loc>
+       <lastmod>2026-11-01T23:09:45+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://blackdisc.online/music</loc>
+       <lastmod>2026-11-01T23:09:45+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://blackdisc.online/film</loc>
+       <lastmod>2026-11-01T23:09:45+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://blackdisc.online/library</loc>
+       <lastmod>2026-11-01T23:09:45+00:00</lastmod>
+       <priority>0.6400</priority>
   </url>
 </urlset>
