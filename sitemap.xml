@@ -4,31 +4,37 @@
 
   <url>
        <loc>https://blackdisc.online/</loc>
+    <changefreq>daily</changefreq>
        <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://blackdisc.online/calendar</loc>
+    <changefreq>daily</changefreq>
        <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://blackdisc.online/about</loc>
+    <changefreq>daily</changefreq>
        <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://blackdisc.online/music</loc>
+    <changefreq>daily</changefreq>
        <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://blackdisc.online/film</loc>
+    <changefreq>daily</changefreq>
        <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://blackdisc.online/library</loc>
+    <changefreq>daily</changefreq>
        <lastmod>2026-11-01T23:09:45+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
