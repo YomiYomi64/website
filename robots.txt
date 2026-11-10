@@ -50,9 +50,6 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
-
 User-agent: GPTBot
 Disallow: /
 
@@ -74,9 +71,6 @@ Disallow: /
 User-agent: meta-externalagent
 Disallow: /
 
-User-agent: GoogleOther
-Disallow: /
-
 User-agent: Baiduspider
 Disallow: /
 
@@ -85,9 +79,6 @@ Disallow: /
 
 User-agent: AwarioSmartBot
 User-agent: AwarioRssBot
-Disallow: /
-
-User-agent: Google-CloudVertexBot
 Disallow: /
 
 User-agent: QualifiedBot
@@ -141,10 +132,6 @@ User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
 User-agent: DuckAssistBot
 User-agent: FacebookBot
-User-agent: Google-Extended
-User-agent: GoogleOther
-User-agent: GoogleOther-Image
-User-agent: GoogleOther-Video
 User-agent: GPTBot
 User-agent: img2dataset
 User-agent: Meta-ExternalAgent
@@ -156,9 +143,6 @@ User-agent: TikTokSpider
 User-agent: YouBot
 Disallow: /
 
-User-agent: AdsBot-Google
-User-agent: AdsBot-Google-Mobile
-User-agent: AdsBot-Google-Mobile-Apps
 User-agent: *
 Disallow: /config
 Disallow: /search
